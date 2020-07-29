@@ -1,0 +1,260 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4190635100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to create account using Register",
+        "description": "",
+        "id": "users-ability-to-create-account;user-should-able-to-create-account-using-register;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2969171400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to Newtours homepage",
+            "match": {
+              "location": "NewtoursRegisterSteps.browse_to_Newtours_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226620000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Register page",
+            "match": {
+              "location": "NewtoursRegisterSteps.navigate_to_Register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1689453000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill form with some basic information",
+            "match": {
+              "location": "NewtoursRegisterSteps.fill_form_with_some_basic_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632417200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Complete creating account with \"Sam\" with \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sam",
+                  "offset": 32
+                },
+                {
+                  "val": "123",
+                  "offset": 43
+                }
+              ],
+              "location": "NewtoursRegisterSteps.complete_creating_account_with_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 383621600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify account created successfully",
+            "match": {
+              "location": "NewtoursRegisterSteps.verify_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@newtour"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to create account",
+    "description": "",
+    "id": "users-ability-to-create-account",
+    "keyword": "Feature",
+    "uri": "01NewtoursRegister.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@newtour"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3370939900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to login using Sign-On Feature",
+        "description": "",
+        "id": "users-ability-to-login;user-should-able-to-login-using-sign-on-feature;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 34500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2901656200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Land to Newtours homepage",
+            "match": {
+              "location": "NewtoursLoginSteps.land_to_Newtours_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270045700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Sign-On page",
+            "match": {
+              "location": "NewtoursLoginSteps.navigate_to_Sign_On_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213600800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill login form with valid username and password",
+            "match": {
+              "location": "NewtoursLoginSteps.fill_login_form_with_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337917900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click login button",
+            "match": {
+              "location": "NewtoursLoginSteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25671100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify login successfully",
+            "match": {
+              "location": "NewtoursLoginSteps.verify_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@newtour"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to login",
+    "description": "",
+    "id": "users-ability-to-login",
+    "keyword": "Feature",
+    "uri": "NewtoursLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@newtour"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

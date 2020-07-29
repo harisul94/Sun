@@ -1,0 +1,15 @@
+bdd\newtours\PageActions\NewtoursRegisterPageActions.class
+bdd\newtours\PageElements\NewtoursLoginPageLocators.class
+bdd\utilities\AfterActions.class
+bdd\newtours\PageActions\NewtoursRegisterConfirmPageActions.class
+bdd\newtours\PageActions\NewtoursHomePageActions.class
+bdd\utilities\ReadExcelSheetData.class
+bdd\runners\RunnerClass.class
+bdd\newtours\PageElements\NewtoursRegisterPageLocators.class
+bdd\stepDef\NewtoursRegisterSteps.class
+bdd\utilities\SetupDrivers.class
+bdd\stepDef\NewtoursLoginSteps.class
+bdd\newtours\PageElements\NewtoursRegisterConfirmPageLocators.class
+bdd\utilities\BeforeActions.class
+bdd\newtours\PageActions\NewtoursLoginPageActions.class
+bdd\newtours\PageElements\NewtoursHomePageLocators.class

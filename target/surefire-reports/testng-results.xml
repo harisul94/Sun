@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17859" started-at="2020-07-25T18:36:59Z" finished-at="2020-07-25T18:37:17Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="17859" started-at="2020-07-25T18:36:59Z" finished-at="2020-07-25T18:37:17Z">
+      <class name="bdd.runners.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="setUpClass" is-config="true" duration-ms="175" started-at="2020-07-25T14:36:59Z" finished-at="2020-07-25T14:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" duration-ms="10250" started-at="2020-07-25T14:36:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-25T14:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to create account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="feature" duration-ms="7128" started-at="2020-07-25T14:37:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-25T14:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="writeExtentReport" is-config="true" duration-ms="5" started-at="2020-07-25T14:37:17Z" finished-at="2020-07-25T14:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:bdd.runners.RunnerClass@234bef66]" name="tearDownClass" is-config="true" duration-ms="242" started-at="2020-07-25T14:37:17Z" finished-at="2020-07-25T14:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.runners.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
